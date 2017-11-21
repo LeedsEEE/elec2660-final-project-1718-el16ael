@@ -10,6 +10,7 @@
 
 @interface BraConversion : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIPickerView *SizePicker;
 
 @end
 
