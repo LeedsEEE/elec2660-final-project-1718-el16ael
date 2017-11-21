@@ -19,6 +19,7 @@
 		4EE2E3861FC452AC000F201D /* FitGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2E3851FC452AC000F201D /* FitGuide.m */; };
 		4EE2E3891FC45328000F201D /* Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2E3881FC45328000F201D /* Styles.m */; };
 		4EE2E38B1FC4580D000F201D /* Picture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE2E38A1FC4580D000F201D /* Picture1.png */; };
+		4EE2E38E1FC45E43000F201D /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2E38D1FC45E43000F201D /* DataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		4EE2E3871FC45328000F201D /* Styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Styles.h; sourceTree = "<group>"; };
 		4EE2E3881FC45328000F201D /* Styles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Styles.m; sourceTree = "<group>"; };
 		4EE2E38A1FC4580D000F201D /* Picture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Picture1.png; sourceTree = "<group>"; };
+		4EE2E38C1FC45E43000F201D /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		4EE2E38D1FC45E43000F201D /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				4EE2E3841FC452AC000F201D /* FitGuide.h */,
 				4EE2E3851FC452AC000F201D /* FitGuide.m */,
 				4EE2E3541FC44E5B000F201D /* Main.storyboard */,
+				4EE2E38C1FC45E43000F201D /* DataModel.h */,
+				4EE2E38D1FC45E43000F201D /* DataModel.m */,
 				4EE2E3871FC45328000F201D /* Styles.h */,
 				4EE2E3881FC45328000F201D /* Styles.m */,
 				4EE2E3571FC44E5B000F201D /* Assets.xcassets */,
@@ -296,6 +301,7 @@
 				4EE2E34D1FC44E5B000F201D /* AppDelegate.m in Sources */,
 				4EE2E3501FC44E5B000F201D /* BraConversion.m in Sources */,
 				4EE2E3891FC45328000F201D /* Styles.m in Sources */,
+				4EE2E38E1FC45E43000F201D /* DataModel.m in Sources */,
 				4EE2E34A1FC44E5B000F201D /* main.m in Sources */,
 				4EE2E3861FC452AC000F201D /* FitGuide.m in Sources */,
 			);

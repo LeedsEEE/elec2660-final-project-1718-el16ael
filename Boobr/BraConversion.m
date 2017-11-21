@@ -7,6 +7,7 @@
 //
 
 #import "BraConversion.h"
+#import "DataModel.h"
 
 @interface BraConversion ()
 
@@ -16,6 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    DataModel *temp = [[DataModel alloc] init];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -25,5 +30,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+/*- (NSString *) pickerView : (UIPickerView *)pickerView
+               titleForRow: (NSInteger)row
+              forComponent: (NSInteger) component {
+    
+}
+-(void) pickerView : (UIPickerView *)pickerView
+      didSelectRow : (NSInteger)row
+        inComponent:(NSInteger)component {
+    
+}
+-(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+    
+}
 
+-(NSInteger)pickerView:(UIPickerView*)pickerView
+numberOfRowsInComponent:(NSInteger)component{
+    
+}*/
 @end

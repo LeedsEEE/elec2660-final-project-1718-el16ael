@@ -36,7 +36,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Size Conversion" image="first" id="acW-dT-cKf"/>
                     <connections>
-                        <outlet property="SizePicker" destination="Df3-bQ-WjL" id="q28-4y-8LE"/>
+                        <outlet property="pickerView" destination="Df3-bQ-WjL" id="H1N-tV-LiV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>

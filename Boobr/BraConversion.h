@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BraConversion : UIViewController
+@interface BraConversion : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
 
-@property (weak, nonatomic) IBOutlet UIPickerView *SizePicker;
+@property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
 
 @end
 
