@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  BraConversion.h
 //  Boobr
 //
 //  Created by Antonia Lamballe [el16ael] on 21/11/2017.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface BraConversion : UIViewController
 
 
 @end

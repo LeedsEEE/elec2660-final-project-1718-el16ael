@@ -1,18 +1,18 @@
 //
-//  SecondViewController.m
+//  SisterSize.m
 //  Boobr
 //
 //  Created by Antonia Lamballe [el16ael] on 21/11/2017.
 //  Copyright © 2017 University Of Leeds. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "SisterSize.h"
 
-@interface SecondViewController ()
+@interface SisterSize ()
 
 @end
 
-@implementation SecondViewController
+@implementation SisterSize
 
 - (void)viewDidLoad {
     [super viewDidLoad];

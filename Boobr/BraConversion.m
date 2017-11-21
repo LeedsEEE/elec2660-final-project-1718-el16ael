@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  BraConversion.m
 //  Boobr
 //
 //  Created by Antonia Lamballe [el16ael] on 21/11/2017.
 //  Copyright © 2017 University Of Leeds. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "BraConversion.h"
 
-@interface FirstViewController ()
+@interface BraConversion ()
 
 @end
 
-@implementation FirstViewController
+@implementation BraConversion
 
 - (void)viewDidLoad {
     [super viewDidLoad];
