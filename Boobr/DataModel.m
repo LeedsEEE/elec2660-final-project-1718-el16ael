@@ -45,6 +45,9 @@
         self.AUSbandsize = @[@6,@8,@10,@12,@14,@16];
         self.AUScupsize = [NSArray arrayWithObjects: @"AA", @"A", @"B", @"C", @"D", @"DD", nil];
         
+        //Filling an array with all countries
+        self.Countries = [NSArray arrayWithObjects:@"USA", @"Europe", @"Spain", @"Japan", @"Australia", nil];
+        
         
     }
     return self;

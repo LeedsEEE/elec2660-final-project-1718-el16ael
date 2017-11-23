@@ -20,6 +20,11 @@
 		4EE2E3891FC45328000F201D /* Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2E3881FC45328000F201D /* Styles.m */; };
 		4EE2E38B1FC4580D000F201D /* Picture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE2E38A1FC4580D000F201D /* Picture1.png */; };
 		4EE2E38E1FC45E43000F201D /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2E38D1FC45E43000F201D /* DataModel.m */; };
+		4EED3BDD1FC73DD300BE7ACB /* Picture1 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EED3BDC1FC73DD300BE7ACB /* Picture1 copy.png */; };
+		4EED3BDF1FC7545400BE7ACB /* sisters.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EED3BDE1FC7545400BE7ACB /* sisters.png */; };
+		4EED3BE31FC7545E00BE7ACB /* boobr no back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EED3BE01FC7545E00BE7ACB /* boobr no back.png */; };
+		4EED3BE41FC7545E00BE7ACB /* bra outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EED3BE11FC7545E00BE7ACB /* bra outline.png */; };
+		4EED3BE51FC7545E00BE7ACB /* bras (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 4EED3BE21FC7545E00BE7ACB /* bras (2).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +70,11 @@
 		4EE2E38A1FC4580D000F201D /* Picture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Picture1.png; sourceTree = "<group>"; };
 		4EE2E38C1FC45E43000F201D /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		4EE2E38D1FC45E43000F201D /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		4EED3BDC1FC73DD300BE7ACB /* Picture1 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picture1 copy.png"; sourceTree = "<group>"; };
+		4EED3BDE1FC7545400BE7ACB /* sisters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sisters.png; sourceTree = "<group>"; };
+		4EED3BE01FC7545E00BE7ACB /* boobr no back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boobr no back.png"; sourceTree = "<group>"; };
+		4EED3BE11FC7545E00BE7ACB /* bra outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bra outline.png"; sourceTree = "<group>"; };
+		4EED3BE21FC7545E00BE7ACB /* bras (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bras (2).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,12 +130,17 @@
 				4EE2E34C1FC44E5B000F201D /* AppDelegate.m */,
 				4EE2E34E1FC44E5B000F201D /* BraConversion.h */,
 				4EE2E34F1FC44E5B000F201D /* BraConversion.m */,
+				4EED3BDC1FC73DD300BE7ACB /* Picture1 copy.png */,
 				4EE2E3511FC44E5B000F201D /* SisterSize.h */,
 				4EE2E3521FC44E5B000F201D /* SisterSize.m */,
+				4EED3BDE1FC7545400BE7ACB /* sisters.png */,
 				4EE2E3841FC452AC000F201D /* FitGuide.h */,
 				4EE2E3851FC452AC000F201D /* FitGuide.m */,
 				4EE2E3541FC44E5B000F201D /* Main.storyboard */,
 				4EE2E38C1FC45E43000F201D /* DataModel.h */,
+				4EED3BE01FC7545E00BE7ACB /* boobr no back.png */,
+				4EED3BE11FC7545E00BE7ACB /* bra outline.png */,
+				4EED3BE21FC7545E00BE7ACB /* bras (2).png */,
 				4EE2E38D1FC45E43000F201D /* DataModel.m */,
 				4EE2E3871FC45328000F201D /* Styles.h */,
 				4EE2E3881FC45328000F201D /* Styles.m */,
@@ -269,10 +284,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EED3BE51FC7545E00BE7ACB /* bras (2).png in Resources */,
 				4EE2E38B1FC4580D000F201D /* Picture1.png in Resources */,
 				4EE2E35B1FC44E5B000F201D /* LaunchScreen.storyboard in Resources */,
 				4EE2E3581FC44E5B000F201D /* Assets.xcassets in Resources */,
+				4EED3BDF1FC7545400BE7ACB /* sisters.png in Resources */,
 				4EE2E3561FC44E5B000F201D /* Main.storyboard in Resources */,
+				4EED3BDD1FC73DD300BE7ACB /* Picture1 copy.png in Resources */,
+				4EED3BE31FC7545E00BE7ACB /* boobr no back.png in Resources */,
+				4EED3BE41FC7545E00BE7ACB /* bra outline.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +555,7 @@
 				4EE2E3771FC44E5B000F201D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE2E3781FC44E5B000F201D /* Build configuration list for PBXNativeTarget "BoobrTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +564,7 @@
 				4EE2E37A1FC44E5B000F201D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE2E37B1FC44E5B000F201D /* Build configuration list for PBXNativeTarget "BoobrUITests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +573,7 @@
 				4EE2E37D1FC44E5B000F201D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

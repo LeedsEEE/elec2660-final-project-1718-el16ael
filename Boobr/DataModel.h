@@ -38,5 +38,9 @@
 @property (strong, nonatomic) NSArray * AUSbandsize;
 @property (strong, nonatomic) NSArray * AUScupsize;
 
+//Countries
+@property (strong, nonatomic) NSArray * Countries;
+
+
 
 @end

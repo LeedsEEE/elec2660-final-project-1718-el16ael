@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface SisterSize : UIViewController
+@property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
 
+@property (weak, nonatomic) IBOutlet UILabel *SisterBandLabel;
+@property (weak, nonatomic) IBOutlet UILabel *SisterCupLabel;
 
 @end
 

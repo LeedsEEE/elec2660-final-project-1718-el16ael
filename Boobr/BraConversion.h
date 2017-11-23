@@ -11,6 +11,12 @@
 @interface BraConversion : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
+@property (strong, nonatomic) NSString *NEWband;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *BandSizeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *CupSizeLabel;
+
 
 @end
 
