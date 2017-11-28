@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -39,34 +40,33 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afH-9A-59r">
-                                <frame key="frameInset" minX="147" minY="228" width="31" height="45"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <frame key="frameInset" minX="85" minY="228" width="93" height="107"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <color key="textColor" red="0.4319473258" green="0.13304352659999999" blue="0.68915657720000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAJ-4j-ee8">
-                                <frame key="frameInset" minX="186" minY="228" width="31" height="45"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <frame key="frameInset" minX="186" minY="228" width="93" height="107"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <color key="textColor" red="0.4319473258" green="0.13304352659999999" blue="0.68915657720000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.9135403358299784" blue="0.97784620632832064" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="oAJ-4j-ee8" firstAttribute="top" secondItem="g73-hw-Hwo" secondAttribute="bottom" constant="20" id="3DY-k1-lSh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="t1k-78-7Ub" secondAttribute="trailing" constant="181" id="5PM-6Q-Z4d"/>
                             <constraint firstItem="g73-hw-Hwo" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="96" id="HRC-p7-x5v"/>
                             <constraint firstItem="t1k-78-7Ub" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="K6J-rr-lOK"/>
+                            <constraint firstItem="afH-9A-59r" firstAttribute="top" secondItem="g73-hw-Hwo" secondAttribute="bottom" constant="20" id="P0N-Ih-QG1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="RhA-Bq-mr6" secondAttribute="trailing" id="aMz-69-O5B"/>
                             <constraint firstAttribute="leadingMargin" secondItem="t1k-78-7Ub" secondAttribute="leading" id="bk5-Z1-ifF"/>
-                            <constraint firstItem="oAJ-4j-ee8" firstAttribute="leading" secondItem="afH-9A-59r" secondAttribute="trailing" constant="8" id="g4C-AX-Upg"/>
+                            <constraint firstItem="oAJ-4j-ee8" firstAttribute="leading" secondItem="afH-9A-59r" secondAttribute="trailing" constant="8" id="d0i-cB-hDN"/>
                             <constraint firstItem="RhA-Bq-mr6" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="5" id="gD6-Js-uyh"/>
-                            <constraint firstItem="afH-9A-59r" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="131" id="gsd-Ec-IqY"/>
+                            <constraint firstItem="afH-9A-59r" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="69" id="iqS-LR-HR2"/>
                             <constraint firstItem="RhA-Bq-mr6" firstAttribute="top" secondItem="t1k-78-7Ub" secondAttribute="bottom" constant="19" id="jIF-9f-c84"/>
+                            <constraint firstItem="oAJ-4j-ee8" firstAttribute="top" secondItem="g73-hw-Hwo" secondAttribute="bottom" constant="20" id="lKN-z4-meu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="g73-hw-Hwo" secondAttribute="trailing" constant="96" id="mFy-wG-VxM"/>
-                            <constraint firstItem="afH-9A-59r" firstAttribute="top" secondItem="g73-hw-Hwo" secondAttribute="bottom" constant="20" id="oUa-Yy-Lel"/>
                             <constraint firstItem="g73-hw-Hwo" firstAttribute="top" secondItem="RhA-Bq-mr6" secondAttribute="bottom" constant="40" id="pmD-uG-KP9"/>
-                            <constraint firstItem="oAJ-4j-ee8" firstAttribute="leading" secondItem="afH-9A-59r" secondAttribute="trailing" constant="8" id="pxh-Ud-74d"/>
                             <constraint firstItem="t1k-78-7Ub" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="sGV-Ph-3wV"/>
                         </constraints>
                     </view>
@@ -124,21 +124,40 @@
                                 <color key="textColor" red="0.4319473258" green="0.13304352659999999" blue="0.68915657720000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnM-6N-rDj">
+                                <frame key="frameInset" minX="152" minY="267" width="31" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.4319473258" green="0.13304352659999999" blue="0.68915657720000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gt3-wx-eiu">
+                                <frame key="frameInset" minX="191" minY="267" width="31" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.4319473258" green="0.13304352659999999" blue="0.68915657720000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.91354033580000005" blue="0.97784620629999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="SHA-bP-EdS" firstAttribute="top" secondItem="sb6-v9-BeD" secondAttribute="bottom" constant="8" id="1lv-nS-WAm"/>
                             <constraint firstItem="sb6-v9-BeD" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="96" id="41R-qh-OCc"/>
+                            <constraint firstItem="HnM-6N-rDj" firstAttribute="top" secondItem="SHA-bP-EdS" secondAttribute="bottom" constant="6" id="4Qz-4E-LIv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nOq-G2-sw7" secondAttribute="trailing" constant="-8" id="5aZ-5T-EUg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HnM-6N-rDj" secondAttribute="trailing" constant="176" id="ElC-pY-7B9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="OyZ-YN-7gf" secondAttribute="trailing" constant="137" id="JK4-De-gUO"/>
+                            <constraint firstItem="HnM-6N-rDj" firstAttribute="top" secondItem="SHA-bP-EdS" secondAttribute="bottom" constant="6" id="MJh-3N-5bZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sb6-v9-BeD" secondAttribute="trailing" constant="96" id="OC6-pl-gDC"/>
                             <constraint firstItem="OyZ-YN-7gf" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="175" id="ODw-OG-40B"/>
                             <constraint firstItem="SGQ-Mj-alo" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="OpO-8A-ff7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gt3-wx-eiu" secondAttribute="trailing" constant="137" id="PDU-9y-Wya"/>
+                            <constraint firstItem="gt3-wx-eiu" firstAttribute="top" secondItem="OyZ-YN-7gf" secondAttribute="bottom" constant="6" id="RKI-1P-NKP"/>
                             <constraint firstItem="OyZ-YN-7gf" firstAttribute="top" secondItem="sb6-v9-BeD" secondAttribute="bottom" constant="8" id="VMs-pl-0UU"/>
+                            <constraint firstItem="gt3-wx-eiu" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="175" id="bSI-Ut-7NN"/>
                             <constraint firstItem="sb6-v9-BeD" firstAttribute="top" secondItem="nOq-G2-sw7" secondAttribute="bottom" constant="33" id="e3F-Vp-j71"/>
                             <constraint firstItem="SHA-bP-EdS" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="136" id="e98-Fr-ojp"/>
                             <constraint firstItem="nOq-G2-sw7" firstAttribute="top" secondItem="SGQ-Mj-alo" secondAttribute="bottom" constant="26" id="hMF-iK-u4T"/>
                             <constraint firstItem="nOq-G2-sw7" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="-9" id="hpY-hh-Dbv"/>
+                            <constraint firstItem="HnM-6N-rDj" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="136" id="ngQ-cl-rDV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="SHA-bP-EdS" secondAttribute="trailing" constant="176" id="o0E-vM-xAm"/>
                             <constraint firstAttribute="trailingMargin" secondItem="SGQ-Mj-alo" secondAttribute="trailing" constant="181" id="rys-BS-cEu"/>
                             <constraint firstAttribute="leadingMargin" secondItem="SGQ-Mj-alo" secondAttribute="leading" id="uwJ-J6-gZA"/>
@@ -147,7 +166,9 @@
                     <tabBarItem key="tabBarItem" title="Sister Size" image="second" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="SisterBandLabel" destination="SHA-bP-EdS" id="8Hg-uk-FmA"/>
+                        <outlet property="SisterBandLabel2" destination="HnM-6N-rDj" id="Q75-Hv-5XC"/>
                         <outlet property="SisterCupLabel" destination="OyZ-YN-7gf" id="Tb1-QX-a4N"/>
+                        <outlet property="SisterCupLabel2" destination="gt3-wx-eiu" id="ETK-Wk-9ib"/>
                         <outlet property="pickerView" destination="QnR-17-lFA" id="WKT-Do-Mb4"/>
                     </connections>
                 </viewController>
@@ -155,10 +176,10 @@
             </objects>
             <point key="canvasLocation" x="-167.19999999999999" y="1270.6146926536733"/>
         </scene>
-        <!--Fit-->
+        <!--Styles-->
         <scene sceneID="nFg-L1-Kyz">
             <objects>
-                <viewController id="iPD-wv-UuE" customClass="FitGuide" sceneMemberID="viewController">
+                <viewController id="iPD-wv-UuE" customClass="Styles" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="l6N-Do-Ths"/>
                         <viewControllerLayoutGuide type="bottom" id="TSx-bh-a6q"/>
@@ -167,27 +188,120 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="boobr no back.png" translatesAutoresizingMaskIntoConstraints="NO" id="Oba-dB-1CH">
-                                <frame key="frameInset" minX="16" minY="20" width="162" height="44"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boobr no back.png" translatesAutoresizingMaskIntoConstraints="NO" id="Oba-dB-1CH">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Oba-dB-1CH" secondAttribute="height" multiplier="81:22" id="GK6-Yk-JiA"/>
+                                </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfM-kq-Kql">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gfM-kq-Kql" secondAttribute="height" multiplier="1:1" id="F2Q-H5-4aU"/>
+                                </constraints>
+                                <state key="normal" image="adhesive bra.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwO-5O-z6h">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zwO-5O-z6h" secondAttribute="height" multiplier="1:1" id="OFK-iU-jr5"/>
+                                </constraints>
+                                <state key="normal" image="corset bra.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEc-Sf-3hl">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tEc-Sf-3hl" secondAttribute="height" multiplier="1:1" id="dua-tu-4he"/>
+                                </constraints>
+                                <state key="normal" image="plunge bra.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yj5-aq-HKG">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yj5-aq-HKG" secondAttribute="height" multiplier="1:1" id="K7g-C9-UaK"/>
+                                </constraints>
+                                <state key="normal" image="shelf bra .png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dS-fG-iCP">
+                                <frame key="frameInset" minX="204" minY="363" width="85" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1dS-fG-iCP" secondAttribute="height" multiplier="1:1" id="kVB-Zl-7SR"/>
+                                </constraints>
+                                <state key="normal" image="strapless bra.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYc-gf-2Y0">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rYc-gf-2Y0" secondAttribute="height" multiplier="1:1" id="Gib-iS-9Jt"/>
+                                </constraints>
+                                <state key="normal" image="triangle bra.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uj-3E-YGg">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0uj-3E-YGg" secondAttribute="height" multiplier="1:1" id="Qga-Y1-IbF"/>
+                                </constraints>
+                                <state key="normal" image="underwire bra.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xru-hC-8EY">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xru-hC-8EY" secondAttribute="height" multiplier="1:1" id="s9c-AP-20e"/>
+                                </constraints>
+                                <state key="normal" image="push up bra.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZ8-yp-JCm">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TZ8-yp-JCm" secondAttribute="height" multiplier="1:1" id="otW-vz-BYH"/>
+                                </constraints>
+                                <state key="normal" image="sport bra.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzZ-RB-bXf">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="CzZ-RB-bXf" secondAttribute="height" multiplier="1:1" id="U2z-pD-DEH"/>
+                                </constraints>
+                                <state key="normal" image="tshirt bra.png"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.91354033580000005" blue="0.97784620629999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="zwO-5O-z6h" firstAttribute="leading" secondItem="gfM-kq-Kql" secondAttribute="leading" id="02R-P3-CAJ"/>
+                            <constraint firstItem="CzZ-RB-bXf" firstAttribute="leading" secondItem="yj5-aq-HKG" secondAttribute="leading" id="0Cq-L8-f8z"/>
+                            <constraint firstItem="TZ8-yp-JCm" firstAttribute="top" secondItem="1dS-fG-iCP" secondAttribute="bottom" constant="8" id="1uc-XH-ZGp"/>
+                            <constraint firstItem="tEc-Sf-3hl" firstAttribute="top" secondItem="zwO-5O-z6h" secondAttribute="bottom" constant="8" id="1zV-Vb-coH"/>
+                            <constraint firstItem="0uj-3E-YGg" firstAttribute="trailing" secondItem="rYc-gf-2Y0" secondAttribute="trailing" id="8dB-Rh-edO"/>
+                            <constraint firstItem="TZ8-yp-JCm" firstAttribute="bottom" secondItem="CzZ-RB-bXf" secondAttribute="bottom" id="D63-aA-ckG"/>
+                            <constraint firstItem="1dS-fG-iCP" firstAttribute="leading" secondItem="xru-hC-8EY" secondAttribute="leading" id="EWV-UT-okM"/>
+                            <constraint firstItem="tEc-Sf-3hl" firstAttribute="leading" secondItem="zwO-5O-z6h" secondAttribute="leading" id="FPB-jm-fZa"/>
+                            <constraint firstItem="TZ8-yp-JCm" firstAttribute="trailing" secondItem="1dS-fG-iCP" secondAttribute="trailing" id="FZK-Jq-ntj"/>
+                            <constraint firstItem="TZ8-yp-JCm" firstAttribute="leading" secondItem="CzZ-RB-bXf" secondAttribute="trailing" constant="25" id="L9l-xo-Rc0"/>
+                            <constraint firstItem="CzZ-RB-bXf" firstAttribute="trailing" secondItem="yj5-aq-HKG" secondAttribute="trailing" id="LWr-sa-UDv"/>
+                            <constraint firstItem="yj5-aq-HKG" firstAttribute="top" secondItem="tEc-Sf-3hl" secondAttribute="bottom" constant="13" id="MhJ-vT-nFC"/>
+                            <constraint firstItem="CzZ-RB-bXf" firstAttribute="top" secondItem="yj5-aq-HKG" secondAttribute="bottom" constant="10" id="P0d-VT-GVm"/>
+                            <constraint firstItem="1dS-fG-iCP" firstAttribute="top" secondItem="xru-hC-8EY" secondAttribute="bottom" constant="13" id="PtJ-1c-bNw"/>
+                            <constraint firstItem="gfM-kq-Kql" firstAttribute="top" secondItem="Oba-dB-1CH" secondAttribute="bottom" constant="15" id="RBq-WW-a16"/>
+                            <constraint firstItem="xru-hC-8EY" firstAttribute="leading" secondItem="0uj-3E-YGg" secondAttribute="leading" id="TO4-Yo-MYO"/>
+                            <constraint firstItem="yj5-aq-HKG" firstAttribute="leading" secondItem="tEc-Sf-3hl" secondAttribute="leading" id="VNa-Gt-kLu"/>
+                            <constraint firstItem="xru-hC-8EY" firstAttribute="top" secondItem="0uj-3E-YGg" secondAttribute="bottom" constant="8" id="Viw-Pw-h6z"/>
+                            <constraint firstItem="zwO-5O-z6h" firstAttribute="trailing" secondItem="gfM-kq-Kql" secondAttribute="trailing" id="ZlS-oh-fOm"/>
+                            <constraint firstItem="tEc-Sf-3hl" firstAttribute="trailing" secondItem="zwO-5O-z6h" secondAttribute="trailing" id="aI9-JA-SUR"/>
+                            <constraint firstItem="0uj-3E-YGg" firstAttribute="leading" secondItem="rYc-gf-2Y0" secondAttribute="leading" id="fLP-8b-qea"/>
+                            <constraint firstItem="gfM-kq-Kql" firstAttribute="leading" secondItem="Fff-ac-pak" secondAttribute="leadingMargin" constant="77" id="gNA-Yn-HBD"/>
+                            <constraint firstItem="TZ8-yp-JCm" firstAttribute="top" secondItem="CzZ-RB-bXf" secondAttribute="top" id="ht1-hU-DLW"/>
                             <constraint firstItem="Oba-dB-1CH" firstAttribute="top" secondItem="l6N-Do-Ths" secondAttribute="bottom" id="kHT-3A-GiX"/>
+                            <constraint firstItem="1dS-fG-iCP" firstAttribute="trailing" secondItem="xru-hC-8EY" secondAttribute="trailing" id="ll3-qm-gNL"/>
+                            <constraint firstItem="TZ8-yp-JCm" firstAttribute="leading" secondItem="1dS-fG-iCP" secondAttribute="leading" id="mBl-qn-T3H"/>
+                            <constraint firstItem="zwO-5O-z6h" firstAttribute="top" secondItem="gfM-kq-Kql" secondAttribute="bottom" constant="8" id="mDD-cb-3yu"/>
+                            <constraint firstItem="TSx-bh-a6q" firstAttribute="top" secondItem="CzZ-RB-bXf" secondAttribute="bottom" constant="77" id="mTH-Cm-0MU"/>
+                            <constraint firstItem="0uj-3E-YGg" firstAttribute="top" secondItem="rYc-gf-2Y0" secondAttribute="bottom" constant="8" id="ost-jr-Wzk"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Oba-dB-1CH" secondAttribute="leading" id="pZ3-ZB-usk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Oba-dB-1CH" secondAttribute="trailing" constant="181" id="sFE-WM-21A"/>
+                            <constraint firstItem="xru-hC-8EY" firstAttribute="trailing" secondItem="0uj-3E-YGg" secondAttribute="trailing" id="xfa-WD-gKx"/>
+                            <constraint firstItem="yj5-aq-HKG" firstAttribute="trailing" secondItem="tEc-Sf-3hl" secondAttribute="trailing" id="zGH-jl-jTp"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Fit" id="udv-1q-sq0"/>
+                    <tabBarItem key="tabBarItem" title="Styles" image="third" id="udv-1q-sq0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rmp-Mf-pa9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="650" y="1271"/>
+            <point key="canvasLocation" x="648.79999999999995" y="1270.6146926536733"/>
         </scene>
-        <!--Styles-->
+        <!--Fit-->
         <scene sceneID="GBH-vg-dNI">
             <objects>
-                <viewController id="Dta-8d-VJF" customClass="Styles" sceneMemberID="viewController">
+                <viewController id="Dta-8d-VJF" customClass="FitGuide" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CRe-AG-rDq"/>
                         <viewControllerLayoutGuide type="bottom" id="4J2-lU-2W6"/>
@@ -207,7 +321,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="yKJ-PT-JQ9" secondAttribute="trailing" constant="181" id="XI2-HL-fRz"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Styles" id="SHa-8u-t6G"/>
+                    <tabBarItem key="tabBarItem" title="Fit" image="fourth" id="SHa-8u-t6G"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pjO-CP-gUt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -236,8 +350,20 @@
         </scene>
     </scenes>
     <resources>
+        <image name="adhesive bra.png" width="150" height="160"/>
         <image name="boobr no back.png" width="351" height="94"/>
+        <image name="corset bra.png" width="150" height="159"/>
         <image name="first" width="30" height="30"/>
+        <image name="fourth" width="351" height="94"/>
+        <image name="plunge bra.png" width="150" height="159"/>
+        <image name="push up bra.png" width="150" height="159"/>
         <image name="second" width="30" height="30"/>
+        <image name="shelf bra .png" width="150" height="160"/>
+        <image name="sport bra.png" width="150" height="160"/>
+        <image name="strapless bra.png" width="149" height="159"/>
+        <image name="third" width="351" height="94"/>
+        <image name="triangle bra.png" width="150" height="160"/>
+        <image name="tshirt bra.png" width="150" height="160"/>
+        <image name="underwire bra.png" width="147" height="160"/>
     </resources>
 </document>

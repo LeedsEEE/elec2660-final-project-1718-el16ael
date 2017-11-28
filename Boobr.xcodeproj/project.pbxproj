@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3DC3FC1FCDA35F0029F9F1 /* adhesive bra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC3F71FCDA35F0029F9F1 /* adhesive bra.png */; };
+		4E3DC3FD1FCDA35F0029F9F1 /* corset bra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC3F81FCDA35F0029F9F1 /* corset bra.png */; };
+		4E3DC3FE1FCDA35F0029F9F1 /* plunge bra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC3F91FCDA35F0029F9F1 /* plunge bra.png */; };
+		4E3DC3FF1FCDA35F0029F9F1 /* shelf bra .png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC3FA1FCDA35F0029F9F1 /* shelf bra .png */; };
+		4E3DC4001FCDA35F0029F9F1 /* tshirt bra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC3FB1FCDA35F0029F9F1 /* tshirt bra.png */; };
+		4E3DC4061FCDA3880029F9F1 /* triangle bra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC4011FCDA3880029F9F1 /* triangle bra.png */; };
+		4E3DC4071FCDA3880029F9F1 /* underwire bra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC4021FCDA3880029F9F1 /* underwire bra.png */; };
+		4E3DC4081FCDA3880029F9F1 /* push up bra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC4031FCDA3880029F9F1 /* push up bra.png */; };
+		4E3DC4091FCDA3880029F9F1 /* strapless bra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC4041FCDA3880029F9F1 /* strapless bra.png */; };
+		4E3DC40A1FCDA3880029F9F1 /* sport bra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC4051FCDA3880029F9F1 /* sport bra.png */; };
 		4EE2E34A1FC44E5B000F201D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2E3491FC44E5B000F201D /* main.m */; };
 		4EE2E34D1FC44E5B000F201D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2E34C1FC44E5B000F201D /* AppDelegate.m */; };
 		4EE2E3501FC44E5B000F201D /* BraConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2E34F1FC44E5B000F201D /* BraConversion.m */; };
@@ -45,6 +55,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E3DC3F71FCDA35F0029F9F1 /* adhesive bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adhesive bra.png"; sourceTree = "<group>"; };
+		4E3DC3F81FCDA35F0029F9F1 /* corset bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corset bra.png"; sourceTree = "<group>"; };
+		4E3DC3F91FCDA35F0029F9F1 /* plunge bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plunge bra.png"; sourceTree = "<group>"; };
+		4E3DC3FA1FCDA35F0029F9F1 /* shelf bra .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shelf bra .png"; sourceTree = "<group>"; };
+		4E3DC3FB1FCDA35F0029F9F1 /* tshirt bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tshirt bra.png"; sourceTree = "<group>"; };
+		4E3DC4011FCDA3880029F9F1 /* triangle bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle bra.png"; sourceTree = "<group>"; };
+		4E3DC4021FCDA3880029F9F1 /* underwire bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "underwire bra.png"; sourceTree = "<group>"; };
+		4E3DC4031FCDA3880029F9F1 /* push up bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "push up bra.png"; sourceTree = "<group>"; };
+		4E3DC4041FCDA3880029F9F1 /* strapless bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strapless bra.png"; sourceTree = "<group>"; };
+		4E3DC4051FCDA3880029F9F1 /* sport bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sport bra.png"; sourceTree = "<group>"; };
 		4EE2E3451FC44E5B000F201D /* Boobr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boobr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE2E3491FC44E5B000F201D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EE2E34B1FC44E5B000F201D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -141,6 +161,16 @@
 				4EED3BE01FC7545E00BE7ACB /* boobr no back.png */,
 				4EED3BE11FC7545E00BE7ACB /* bra outline.png */,
 				4EED3BE21FC7545E00BE7ACB /* bras (2).png */,
+				4E3DC3F71FCDA35F0029F9F1 /* adhesive bra.png */,
+				4E3DC3F81FCDA35F0029F9F1 /* corset bra.png */,
+				4E3DC3F91FCDA35F0029F9F1 /* plunge bra.png */,
+				4E3DC3FA1FCDA35F0029F9F1 /* shelf bra .png */,
+				4E3DC3FB1FCDA35F0029F9F1 /* tshirt bra.png */,
+				4E3DC4011FCDA3880029F9F1 /* triangle bra.png */,
+				4E3DC4021FCDA3880029F9F1 /* underwire bra.png */,
+				4E3DC4031FCDA3880029F9F1 /* push up bra.png */,
+				4E3DC4041FCDA3880029F9F1 /* strapless bra.png */,
+				4E3DC4051FCDA3880029F9F1 /* sport bra.png */,
 				4EE2E38D1FC45E43000F201D /* DataModel.m */,
 				4EE2E3871FC45328000F201D /* Styles.h */,
 				4EE2E3881FC45328000F201D /* Styles.m */,
@@ -284,14 +314,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3DC4081FCDA3880029F9F1 /* push up bra.png in Resources */,
 				4EED3BE51FC7545E00BE7ACB /* bras (2).png in Resources */,
+				4E3DC4061FCDA3880029F9F1 /* triangle bra.png in Resources */,
+				4E3DC3FE1FCDA35F0029F9F1 /* plunge bra.png in Resources */,
+				4E3DC3FC1FCDA35F0029F9F1 /* adhesive bra.png in Resources */,
 				4EE2E38B1FC4580D000F201D /* Picture1.png in Resources */,
+				4E3DC3FF1FCDA35F0029F9F1 /* shelf bra .png in Resources */,
 				4EE2E35B1FC44E5B000F201D /* LaunchScreen.storyboard in Resources */,
+				4E3DC4001FCDA35F0029F9F1 /* tshirt bra.png in Resources */,
+				4E3DC3FD1FCDA35F0029F9F1 /* corset bra.png in Resources */,
 				4EE2E3581FC44E5B000F201D /* Assets.xcassets in Resources */,
 				4EED3BDF1FC7545400BE7ACB /* sisters.png in Resources */,
+				4E3DC4091FCDA3880029F9F1 /* strapless bra.png in Resources */,
 				4EE2E3561FC44E5B000F201D /* Main.storyboard in Resources */,
 				4EED3BDD1FC73DD300BE7ACB /* Picture1 copy.png in Resources */,
 				4EED3BE31FC7545E00BE7ACB /* boobr no back.png in Resources */,
+				4E3DC4071FCDA3880029F9F1 /* underwire bra.png in Resources */,
+				4E3DC40A1FCDA3880029F9F1 /* sport bra.png in Resources */,
 				4EED3BE41FC7545E00BE7ACB /* bra outline.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

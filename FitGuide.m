@@ -6,6 +6,8 @@
 //  Copyright © 2017 University Of Leeds. All rights reserved.
 //
 
+//https://www.shutterstock.com/g/neshcheret%20mariia?searchterm=bra
+
 #import "FitGuide.h"
 
 @interface FitGuide ()

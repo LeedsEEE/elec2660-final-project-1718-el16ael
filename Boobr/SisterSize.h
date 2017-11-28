@@ -14,5 +14,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *SisterBandLabel;
 @property (weak, nonatomic) IBOutlet UILabel *SisterCupLabel;
 
+
+@property (weak, nonatomic) IBOutlet UILabel *SisterBandLabel2;
+@property (weak, nonatomic) IBOutlet UILabel *SisterCupLabel2;
+
+
 @end
 
