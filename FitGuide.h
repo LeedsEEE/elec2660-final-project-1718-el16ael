@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface FitGuide : UIViewController
+- (IBAction)BraFitButton:(id)sender;
 
 @end

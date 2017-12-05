@@ -39,13 +39,13 @@
                                 <color key="textColor" red="0.4319473258" green="0.13304352659999999" blue="0.68915657720000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afH-9A-59r">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afH-9A-59r">
                                 <frame key="frameInset" minX="85" minY="228" width="93" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <color key="textColor" red="0.4319473258" green="0.13304352659999999" blue="0.68915657720000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAJ-4j-ee8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAJ-4j-ee8">
                                 <frame key="frameInset" minX="186" minY="228" width="93" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <color key="textColor" red="0.4319473258" green="0.13304352659999999" blue="0.68915657720000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -198,61 +198,91 @@
                                     <constraint firstAttribute="width" secondItem="gfM-kq-Kql" secondAttribute="height" multiplier="1:1" id="F2Q-H5-4aU"/>
                                 </constraints>
                                 <state key="normal" image="adhesive bra.png"/>
+                                <connections>
+                                    <action selector="AdhesiveButton:" destination="iPD-wv-UuE" eventType="touchUpInside" id="ntn-CZ-EMQ"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwO-5O-z6h">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwO-5O-z6h">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="zwO-5O-z6h" secondAttribute="height" multiplier="1:1" id="OFK-iU-jr5"/>
                                 </constraints>
                                 <state key="normal" image="corset bra.png"/>
+                                <connections>
+                                    <action selector="CorsetButton:" destination="iPD-wv-UuE" eventType="touchUpInside" id="Vse-Jb-YlL"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEc-Sf-3hl">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEc-Sf-3hl">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tEc-Sf-3hl" secondAttribute="height" multiplier="1:1" id="dua-tu-4he"/>
                                 </constraints>
                                 <state key="normal" image="plunge bra.png"/>
+                                <connections>
+                                    <action selector="PlungeButton:" destination="iPD-wv-UuE" eventType="touchUpInside" id="pQF-Ks-2f8"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yj5-aq-HKG">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yj5-aq-HKG">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="yj5-aq-HKG" secondAttribute="height" multiplier="1:1" id="K7g-C9-UaK"/>
                                 </constraints>
                                 <state key="normal" image="shelf bra .png"/>
+                                <connections>
+                                    <action selector="ShelfButton:" destination="iPD-wv-UuE" eventType="touchUpInside" id="rjH-53-nUY"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dS-fG-iCP">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dS-fG-iCP">
                                 <frame key="frameInset" minX="204" minY="363" width="85" height="85"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1dS-fG-iCP" secondAttribute="height" multiplier="1:1" id="kVB-Zl-7SR"/>
                                 </constraints>
                                 <state key="normal" image="strapless bra.png"/>
+                                <connections>
+                                    <action selector="StraplessButton:" destination="iPD-wv-UuE" eventType="touchUpInside" id="zAF-05-pqy"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYc-gf-2Y0">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYc-gf-2Y0">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="rYc-gf-2Y0" secondAttribute="height" multiplier="1:1" id="Gib-iS-9Jt"/>
                                 </constraints>
                                 <state key="normal" image="triangle bra.png"/>
+                                <connections>
+                                    <action selector="TriangleButton:" destination="iPD-wv-UuE" eventType="touchUpInside" id="jZq-8j-Owu"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uj-3E-YGg">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uj-3E-YGg">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0uj-3E-YGg" secondAttribute="height" multiplier="1:1" id="Qga-Y1-IbF"/>
                                 </constraints>
                                 <state key="normal" image="underwire bra.png"/>
+                                <connections>
+                                    <action selector="UnderwireButton:" destination="iPD-wv-UuE" eventType="touchUpInside" id="DBe-or-QGA"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xru-hC-8EY">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xru-hC-8EY">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="xru-hC-8EY" secondAttribute="height" multiplier="1:1" id="s9c-AP-20e"/>
                                 </constraints>
                                 <state key="normal" image="push up bra.png"/>
+                                <connections>
+                                    <action selector="PushupButton:" destination="iPD-wv-UuE" eventType="touchUpInside" id="02C-dI-uOh"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZ8-yp-JCm">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZ8-yp-JCm">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="TZ8-yp-JCm" secondAttribute="height" multiplier="1:1" id="otW-vz-BYH"/>
                                 </constraints>
                                 <state key="normal" image="sport bra.png"/>
+                                <connections>
+                                    <action selector="SportButton:" destination="iPD-wv-UuE" eventType="touchUpInside" id="Q3s-zp-LQx"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzZ-RB-bXf">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CzZ-RB-bXf">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="CzZ-RB-bXf" secondAttribute="height" multiplier="1:1" id="U2z-pD-DEH"/>
                                 </constraints>
                                 <state key="normal" image="tshirt bra.png"/>
+                                <connections>
+                                    <action selector="TshirtButton:" destination="iPD-wv-UuE" eventType="touchUpInside" id="G2n-bD-rY2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.91354033580000005" blue="0.97784620629999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -293,10 +323,22 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Styles" image="third" id="udv-1q-sq0"/>
+                    <connections>
+                        <outlet property="AdhesiveButton" destination="gfM-kq-Kql" id="3Uw-X5-eah"/>
+                        <outlet property="CorsetButton" destination="zwO-5O-z6h" id="fD3-ra-c64"/>
+                        <outlet property="PushButton" destination="xru-hC-8EY" id="vLH-QR-1Tk"/>
+                        <outlet property="ShelfButton" destination="yj5-aq-HKG" id="UES-k0-NMa"/>
+                        <outlet property="SportButton" destination="TZ8-yp-JCm" id="CDg-dW-8ni"/>
+                        <outlet property="StraplessButton" destination="1dS-fG-iCP" id="TDU-ED-qgr"/>
+                        <outlet property="TriangleButton" destination="rYc-gf-2Y0" id="R6V-q7-XqQ"/>
+                        <outlet property="TshirtButton" destination="CzZ-RB-bXf" id="mQ4-QN-dIF"/>
+                        <outlet property="UnderwireButton" destination="0uj-3E-YGg" id="rge-a0-wu5"/>
+                        <segue destination="nrc-Gt-wjM" kind="show" identifier="mySegue" id="MaW-40-6Ao"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rmp-Mf-pa9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="648.79999999999995" y="1270.6146926536733"/>
+            <point key="canvasLocation" x="649" y="1274"/>
         </scene>
         <!--Fit-->
         <scene sceneID="GBH-vg-dNI">
@@ -313,19 +355,33 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="boobr no back.png" translatesAutoresizingMaskIntoConstraints="NO" id="yKJ-PT-JQ9">
                                 <frame key="frameInset" minX="16" minY="20" width="162" height="44"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JqV-Mw-f7P">
+                                <frame key="frameInset" minX="62" minY="266" width="251" height="87"/>
+                                <color key="backgroundColor" red="0.56162058250000002" green="0.56162058250000002" blue="0.56162058250000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Watch Bra Fitting Video">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="BraFitButton:" destination="Dta-8d-VJF" eventType="touchUpInside" id="pZY-2E-woA"/>
+                                    <segue destination="Kbn-lr-8Da" kind="show" id="9rU-Wv-g4H"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.91354033580000005" blue="0.97784620629999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="yKJ-PT-JQ9" firstAttribute="top" secondItem="CRe-AG-rDq" secondAttribute="bottom" id="746-XC-GbY"/>
+                            <constraint firstItem="JqV-Mw-f7P" firstAttribute="leading" secondItem="WPB-12-d11" secondAttribute="leadingMargin" constant="46" id="8rN-IF-L2C"/>
+                            <constraint firstItem="4J2-lU-2W6" firstAttribute="top" secondItem="JqV-Mw-f7P" secondAttribute="bottom" constant="265" id="DbR-Nb-2VX"/>
                             <constraint firstAttribute="leadingMargin" secondItem="yKJ-PT-JQ9" secondAttribute="leading" id="M3T-WU-g1x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JqV-Mw-f7P" secondAttribute="trailing" constant="46" id="VLm-yZ-Zc3"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yKJ-PT-JQ9" secondAttribute="trailing" constant="181" id="XI2-HL-fRz"/>
+                            <constraint firstItem="yKJ-PT-JQ9" firstAttribute="top" secondItem="CRe-AG-rDq" secondAttribute="bottom" id="XPM-qM-XgR"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Fit" image="fourth" id="SHa-8u-t6G"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pjO-CP-gUt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1455" y="1275"/>
+            <point key="canvasLocation" x="1453.5999999999999" y="1274.2128935532235"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -347,6 +403,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Fit-->
+        <scene sceneID="6Q4-LH-1Bm">
+            <objects>
+                <viewController id="nrc-Gt-wjM" customClass="StylesExplained" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qk0-2L-ASS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zcn-jp-ttY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2qp-lj-cIq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="boobr no back.png" translatesAutoresizingMaskIntoConstraints="NO" id="N5a-QR-L9K">
+                                <frame key="frameInset" minX="16" minY="20" width="162" height="44"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Udw-Re-Qv1">
+                                <frame key="frameInset" minX="81" minY="152" width="213" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgo-HA-i1f">
+                                <frame key="frameInset" minX="81" minY="431" width="213" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncZ-HB-gHu">
+                                <frame key="frameInset" minX="298" minY="34" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="BACK"/>
+                                <connections>
+                                    <action selector="BackPressed:" destination="nrc-Gt-wjM" eventType="touchUpInside" id="6CM-n9-Bbx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.91354033580000005" blue="0.97784620629999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="N5a-QR-L9K" firstAttribute="top" secondItem="qk0-2L-ASS" secondAttribute="bottom" id="Syt-2l-vkr"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="N5a-QR-L9K" secondAttribute="leading" id="nOo-KT-pQW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="N5a-QR-L9K" secondAttribute="trailing" constant="181" id="tet-Jj-MuX"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Fit" image="fourth" id="foV-C9-9BI"/>
+                    <connections>
+                        <outlet property="IMAGE" destination="Udw-Re-Qv1" id="7PS-Fk-aF2"/>
+                        <outlet property="Labeldescription" destination="Dgo-HA-i1f" id="AxO-CC-ZRy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F3s-nU-8vJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="648.79999999999995" y="2043.3283358320841"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="rnn-Ar-el4">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="Kbn-lr-8Da" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fxa-4c-sWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1454" y="2043"/>
         </scene>
     </scenes>
     <resources>

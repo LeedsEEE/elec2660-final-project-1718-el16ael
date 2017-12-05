@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "stylesdata.h"
 @interface DataModel : NSObject
 
 //UK
@@ -44,5 +44,5 @@
 @property (strong, nonatomic) NSArray * countryconversion;
 @property (strong, nonatomic) NSArray * bandconversion;
 
-
+@property (strong, nonatomic) NSMutableArray *Styles;
 @end

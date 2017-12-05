@@ -8,7 +8,20 @@
 
 #import "Styles.h"
 
+
 @interface Styles ()
+
+- (IBAction)AdhesiveButton:(id)sender;
+- (IBAction)CorsetButton:(id)sender;
+- (IBAction)PlungeButton:(id)sender;
+- (IBAction)ShelfButton:(id)sender;
+- (IBAction)TshirtButton:(id)sender;
+- (IBAction)TriangleButton:(id)sender;
+- (IBAction)UnderwireButton:(id)sender;
+- (IBAction)PushupButton:(id)sender;
+- (IBAction)StraplessButton:(id)sender;
+- (IBAction)SportButton:(id)sender;
+
 
 @end
 
@@ -24,14 +37,61 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    //StylesExplained *destinationviewcontroller = [segue destinationViewController];
+    if ( [[segue identifier ] isEqualToString:@"mySegue"]) {
+        StylesExplained *destinationVC = [segue destinationViewController];
+        UIButton * buttonp = sender;
+        destinationVC.ButtonPressed = buttonp.tag;
+        
+    }
+ 
+}
+
+
+
+
+- (IBAction)AdhesiveButton:(id)sender {
+    [self performSegueWithIdentifier:@"mySegue" sender:sender];
+}
+
+- (IBAction)CorsetButton:(id)sender {
+    [self performSegueWithIdentifier:@"mySegue" sender:sender];
+}
+
+- (IBAction)PlungeButton:(id)sender {
+    [self performSegueWithIdentifier:@"mySegue" sender:sender];
+}
+
+- (IBAction)ShelfButton:(id)sender {
+    [self performSegueWithIdentifier:@"mySegue" sender:sender];
+}
+
+- (IBAction)TshirtButton:(id)sender {
+    [self performSegueWithIdentifier:@"mySegue" sender:sender];
+}
+
+- (IBAction)TriangleButton:(id)sender {
+    [self performSegueWithIdentifier:@"mySegue" sender:sender];
+}
+
+- (IBAction)UnderwireButton:(id)sender {
+    [self performSegueWithIdentifier:@"mySegue" sender:sender];
+}
+
+- (IBAction)PushupButton:(id)sender {
+    [self performSegueWithIdentifier:@"mySegue" sender:sender];
+}
+
+- (IBAction)StraplessButton:(id)sender {
+    [self performSegueWithIdentifier:@"mySegue" sender:sender];
+}
+
+- (IBAction)SportButton:(id)sender {
+    [self performSegueWithIdentifier:@"mySegue" sender:sender];
+}
 @end

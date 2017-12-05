@@ -35,6 +35,8 @@
 		4EED3BE31FC7545E00BE7ACB /* boobr no back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EED3BE01FC7545E00BE7ACB /* boobr no back.png */; };
 		4EED3BE41FC7545E00BE7ACB /* bra outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EED3BE11FC7545E00BE7ACB /* bra outline.png */; };
 		4EED3BE51FC7545E00BE7ACB /* bras (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 4EED3BE21FC7545E00BE7ACB /* bras (2).png */; };
+		4EEEF6FF1FD6C561006EAD39 /* StylesExplained.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEF6FE1FD6C561006EAD39 /* StylesExplained.m */; };
+		4EEEF7021FD6C76B006EAD39 /* stylesdata.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEEF7011FD6C76B006EAD39 /* stylesdata.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,10 @@
 		4EED3BE01FC7545E00BE7ACB /* boobr no back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boobr no back.png"; sourceTree = "<group>"; };
 		4EED3BE11FC7545E00BE7ACB /* bra outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bra outline.png"; sourceTree = "<group>"; };
 		4EED3BE21FC7545E00BE7ACB /* bras (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bras (2).png"; sourceTree = "<group>"; };
+		4EEEF6FD1FD6C561006EAD39 /* StylesExplained.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StylesExplained.h; path = ../StylesExplained.h; sourceTree = "<group>"; };
+		4EEEF6FE1FD6C561006EAD39 /* StylesExplained.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StylesExplained.m; path = ../StylesExplained.m; sourceTree = "<group>"; };
+		4EEEF7001FD6C76B006EAD39 /* stylesdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stylesdata.h; sourceTree = "<group>"; };
+		4EEEF7011FD6C76B006EAD39 /* stylesdata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stylesdata.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				4EE2E38A1FC4580D000F201D /* Picture1.png */,
+				4EEEF6FD1FD6C561006EAD39 /* StylesExplained.h */,
+				4EEEF6FE1FD6C561006EAD39 /* StylesExplained.m */,
 				4EE2E34B1FC44E5B000F201D /* AppDelegate.h */,
 				4EE2E34C1FC44E5B000F201D /* AppDelegate.m */,
 				4EE2E34E1FC44E5B000F201D /* BraConversion.h */,
@@ -172,6 +180,8 @@
 				4E3DC4041FCDA3880029F9F1 /* strapless bra.png */,
 				4E3DC4051FCDA3880029F9F1 /* sport bra.png */,
 				4EE2E38D1FC45E43000F201D /* DataModel.m */,
+				4EEEF7001FD6C76B006EAD39 /* stylesdata.h */,
+				4EEEF7011FD6C76B006EAD39 /* stylesdata.m */,
 				4EE2E3871FC45328000F201D /* Styles.h */,
 				4EE2E3881FC45328000F201D /* Styles.m */,
 				4EE2E3571FC44E5B000F201D /* Assets.xcassets */,
@@ -358,7 +368,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EE2E3531FC44E5B000F201D /* SisterSize.m in Sources */,
+				4EEEF7021FD6C76B006EAD39 /* stylesdata.m in Sources */,
 				4EE2E34D1FC44E5B000F201D /* AppDelegate.m in Sources */,
+				4EEEF6FF1FD6C561006EAD39 /* StylesExplained.m in Sources */,
 				4EE2E3501FC44E5B000F201D /* BraConversion.m in Sources */,
 				4EE2E3891FC45328000F201D /* Styles.m in Sources */,
 				4EE2E38E1FC45E43000F201D /* DataModel.m in Sources */,
