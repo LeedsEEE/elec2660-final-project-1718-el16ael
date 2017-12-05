@@ -63,11 +63,12 @@
       didSelectRow : (NSInteger)row
         inComponent:(NSInteger)component {
 
-    NSInteger bandconversion = [self.pickerView selectedRowInComponent:0];
-    NSInteger cupconversion = [self.pickerView selectedRowInComponent:1];
+    NSInteger bandconversion = [self.pickerView selectedRowInComponent:0];//setting column one of picker to be the band size
+    NSInteger cupconversion = [self.pickerView selectedRowInComponent:1];// setting column two of picker to be cup size
     
     
     //setting sister size band conversion to display in the text label for size 1
+        //selecting the previous band size from the array to give the sister size to the cup size
     if (bandconversion == 0){
         NSInteger valueband = [[self.data.UKbandsize objectAtIndex:bandconversion+1] integerValue];
         self.SisterBandLabel.text =[NSString stringWithFormat:@"%ld", valueband];
@@ -95,14 +96,17 @@
     
     else if (bandconversion == 5){
         self.SisterBandLabel.text =[NSString stringWithFormat:@"%@", @"40"];
+        //cannot add one to band size to display correct sister size as the array does not go up to 40 so it has to be manually inputted
     }
     
     
     
     //setting sister size cup conversion to display in the text label for size 1
+    //size AA has to be inputted manually as the array does not go down to this size
     if (cupconversion ==0) {
         self.SisterCupLabel.text = [NSString stringWithFormat:@"AA"];}
     
+    //selecting the previous cup size from the array to give the sister size to the corresponding band
     else if (cupconversion ==1) {
         self.SisterCupLabel.text = [ self.data.UKcupsize objectAtIndex:cupconversion-1];}
     
@@ -122,6 +126,7 @@
     
 
     //setting sister size band conversion to display in the text label for size 2
+    //selecting the band size one above that in the picker
     if (bandconversion == 0){
         
         self.SisterBandLabel2.text =[NSString stringWithFormat:@"%@", @"26"];
@@ -155,6 +160,7 @@
     
     
     //setting sister size cup conversion to display in the text label for size 1
+    //setting the cup size to one above that selected in the picker
     if (cupconversion ==0) {
         self.SisterCupLabel2.text = [ self.data.UKcupsize objectAtIndex:cupconversion+1];}
     
@@ -173,9 +179,6 @@
     
     else if (cupconversion ==5) {
         self.SisterCupLabel2.text = [NSString stringWithFormat:@"F"];}
-        //self.SisterCupLabel.text = [ self.data.UKcupsize objectAtIndex:cupconversion-1];}
-    
-    
     
     
     

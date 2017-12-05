@@ -19,14 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.data = [[DataModel alloc] init];
-    stylesdata * tempstyles = [[stylesdata alloc]init];
-    tempstyles = [self.data.Styles objectAtIndex: self.ButtonPressed];
+    //these methods are implemented in view did load so that the image and description appear as soon as the view controller loads
+    self.data = [[DataModel alloc] init]; //initialising
+    stylesdata * tempstyles = [[stylesdata alloc]init]; //setting the data array to a temporary array
+    tempstyles = [self.data.Styles objectAtIndex: self.ButtonPressed]; // depending what number tag the button is, determines what description is selected
     
-    self.Labeldescription.text = tempstyles.BraDescription;
+    self.Labeldescription.text = tempstyles.BraDescription; //setting the description of the bra style to the label so it is displayed
     
-    UIImage * braimages = [UIImage imageNamed:tempstyles.BraImages];
-    self.IMAGE.image = braimages;
+    UIImage * braimages = [UIImage imageNamed:tempstyles.BraImages];//depending what button is pressed and therefore what BraImage name is displayed, determined which image is assigned to braimages in order for it then to be displayed in view controller
+    self.IMAGE.image = braimages;//assigns the image to the uiimage in storyboard
     
 }
 
@@ -47,6 +48,7 @@
 
 - (IBAction)BackPressed:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
-    //https://stackoverflow.com/questions/14636891/dismissing-a-presented-view-controller
+   
+    // method on how to dismiss the view controller e.g back button was found here https://stackoverflow.com/questions/14636891/dismissing-a-presented-view-controller
 }
 @end

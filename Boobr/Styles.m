@@ -8,7 +8,9 @@
 
 #import "Styles.h"
 
-
+//images used from:
+//https://www.shutterstock.com/image-vector/icon-types-bra-kinds-bras-471110207?src=XLkkRHu5hP1RRk_H1X8M3w-1-43
+//https://www.shutterstock.com/image-vector/icon-types-bra-kinds-bras-512871976
 @interface Styles ()
 
 - (IBAction)AdhesiveButton:(id)sender;
@@ -42,18 +44,18 @@
 
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    //StylesExplained *destinationviewcontroller = [segue destinationViewController];
-    if ( [[segue identifier ] isEqualToString:@"mySegue"]) {
-        StylesExplained *destinationVC = [segue destinationViewController];
+    if ( [[segue identifier ] isEqualToString:@"mySegue"])//identifying which segue is being used so the correct view controller is displayed once button pressed
+    {
+        StylesExplained *destinationVC = [segue destinationViewController]; //
         UIButton * buttonp = sender;
-        destinationVC.ButtonPressed = buttonp.tag;
+        destinationVC.ButtonPressed = buttonp.tag; //depending which button has been pressed, each has a different tag (the button is numbered) so each number has the image and description attached to it.
         
     }
  
 }
 
 
-
+//when each of the 10 buttons is pressed, it loads the following view controller
 
 - (IBAction)AdhesiveButton:(id)sender {
     [self performSegueWithIdentifier:@"mySegue" sender:sender];

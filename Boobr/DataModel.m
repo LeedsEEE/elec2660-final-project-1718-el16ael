@@ -15,6 +15,8 @@
     self = [super init];
     if (self) {
         
+        //Bra conversion data was used from http://www.sizeguide.net/bra-sizes.html
+        
         //filling arrays for UK cup and band sizes
         self.UKbandsize = [NSArray array];
         self.UKbandsize = @[@28,@30,@32,@34,@36,@38];
@@ -53,7 +55,12 @@
         
         
         
-        
+        //filling the array styles data. Each of these objects in the array has a specific description of the bra style and an image
+        //information for the descriptions were found at:
+    //http://ultimatebraguide.com/bra-types/
+    //https://en.wikipedia.org/wiki/Bustier
+    //https://www.panache-lingerie.com/ blog/bra-styles-explained
+
         stylesdata * adhesive = [[stylesdata alloc] init];
         adhesive.BraDescription = @"The adhesive bra is often made of silicon but there are other fabrics on the market. It consists of two cups with a join in the centre and a sticky material on the inside to allow it to be stuck directly on the breast. This style of bra is most commonly worn to keep the shape of the breasts whilst wearing a low back or backless piece of clothing.";
         adhesive.BraImages = @"adhesive bra.png";
@@ -69,7 +76,7 @@
         
         stylesdata * shelf = [[stylesdata alloc]init];
         shelf.BraDescription = @"A shelf bra has many different names you may have heard including platform bra, quarter cup bra or cupless bra. It has underwire underneath the breasts for support but with very little or no cup which leaves the breasts exposed. Shelf bras are the perfect way to show your playful side as you can pair it with some pasties.";
-        shelf.BraImages = @"shelf bra.png";
+        shelf.BraImages = @"shelf bra .png";
         
         stylesdata * tshirt = [[stylesdata alloc] init];
         tshirt.BraDescription = @"A T-shirt bra has seamless contour cups that are designed to give a smooth look under tight or lightweight fabric. The cups are lightly padded to stop the shape of your nipples showing through.";
@@ -99,6 +106,7 @@
         sport.BraDescription = @"Sports bras give you support while partaking in physical activity. There are multiple types of sports bra depending on the activity as some sports require a larger range in movement than others. They also often are made from a lightweight fabric to help draw sweat from the body to you cool.";
         sport.BraImages  = @"sport bra.png";
         
+        //adding the objects to the array Styles
         self.Styles = [[NSMutableArray alloc]init];
         [self.Styles addObject:adhesive];
         [self.Styles addObject:corset];

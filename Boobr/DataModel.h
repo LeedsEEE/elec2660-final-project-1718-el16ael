@@ -41,6 +41,7 @@
 //Countries
 @property (strong, nonatomic) NSArray * Countries;
 
+//country and band conversions
 @property (strong, nonatomic) NSArray * countryconversion;
 @property (strong, nonatomic) NSArray * bandconversion;
 

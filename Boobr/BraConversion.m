@@ -64,32 +64,39 @@
         inComponent:(NSInteger)component {
 
     
-    NSInteger bandconversion = [self.pickerView selectedRowInComponent:0];
-   NSInteger cupconversion = [self.pickerView selectedRowInComponent:1];
-  NSInteger countryconverion = [self.pickerView selectedRowInComponent:2];
+    NSInteger bandconversion = [self.pickerView selectedRowInComponent:0]; // column one is band size to be converted
+   NSInteger cupconversion = [self.pickerView selectedRowInComponent:1]; //column two is the cup size to be converted
+  NSInteger countryconverion = [self.pickerView selectedRowInComponent:2];//column three is the country to convert the UK size to
     
-    if (countryconverion == 0){
-        NSInteger valueband = [[self.data.USAbandsize objectAtIndex:bandconversion] integerValue];
-        self.BandSizeLabel.text = [NSString stringWithFormat:@"%ld", valueband];
-        self.CupSizeLabel.text = [self.data.USAcupsize objectAtIndex:cupconversion];}
-    //NSInteger valuecup = [[self.data.USAcupsize objectAtIndex:cupconversion] integerValue];
-    //self.CupSizeLabel.text = [NSString stringWithFormat:@"%ld", valuecup]; }
+    
+    
+//IF USA IS SELECTED FROM PICKER
+if (countryconverion == 0){
+    NSInteger valueband = [[self.data.USAbandsize objectAtIndex:bandconversion] integerValue];
+    self.BandSizeLabel.text = [NSString stringWithFormat:@"%ld", valueband];
+    self.CupSizeLabel.text = [self.data.USAcupsize objectAtIndex:cupconversion];}
 
+//IF EUROPE IS SELECTED FROM PICKER
 else if (countryconverion ==1){
         NSInteger valueband = [[self.data.EURbandsize objectAtIndex:bandconversion] integerValue];
     self.BandSizeLabel.text = [NSString stringWithFormat:@"%ld", valueband];
     self.CupSizeLabel.text = [self.data.EURcupsize objectAtIndex:cupconversion];}
 
+//IF SPAIN IS SELECTED FROM PICKER
 else if (countryconverion ==2){
     NSInteger valueband = [[self.data.SPbandsize objectAtIndex:bandconversion] integerValue];
     self.BandSizeLabel.text = [NSString stringWithFormat:@"%ld", valueband];
     self.CupSizeLabel.text = [self.data.SPcupsize objectAtIndex:cupconversion];}
     
+    
+// IF JAPAN IS SELECTED FROM PICKER
 else if (countryconverion ==3){
     NSInteger valueband = [[self.data.JAPbandsize objectAtIndex:bandconversion] integerValue];
     self.BandSizeLabel.text = [NSString stringWithFormat:@"%ld", valueband];
     self.CupSizeLabel.text = [self.data.JAPcupsize objectAtIndex:cupconversion];}
     
+    
+//IF AUSTRALIA IS SELECTED FROM PICKER
 else if (countryconverion ==4){
     NSInteger valueband = [[self.data.AUSbandsize objectAtIndex:bandconversion] integerValue];
     self.BandSizeLabel.text = [NSString stringWithFormat:@"%ld", valueband];
