@@ -54,6 +54,7 @@
     [[self view] addSubview:self.controller.view];
     [self.player play];
     // how to input the video into app : https://www.youtube.com/watch?v=gPBX6lGzCCE
+    //video used : https://www.youtube.com/watch?v=T-lbmNOZQHg
     
 }
 @end

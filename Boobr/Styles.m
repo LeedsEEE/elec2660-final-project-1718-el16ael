@@ -11,6 +11,9 @@
 //images used from:
 //https://www.shutterstock.com/image-vector/icon-types-bra-kinds-bras-471110207?src=XLkkRHu5hP1RRk_H1X8M3w-1-43
 //https://www.shutterstock.com/image-vector/icon-types-bra-kinds-bras-512871976
+
+//moving betweeb the segues  : https://appsandbiscuits.com/move-between-view-controllers-with-segues-ios-9-7e231159e8f4
+
 @interface Styles ()
 
 - (IBAction)AdhesiveButton:(id)sender;
