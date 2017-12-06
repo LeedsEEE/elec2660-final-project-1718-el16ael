@@ -17,6 +17,22 @@
 		4E3DC4081FCDA3880029F9F1 /* push up bra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC4031FCDA3880029F9F1 /* push up bra.png */; };
 		4E3DC4091FCDA3880029F9F1 /* strapless bra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC4041FCDA3880029F9F1 /* strapless bra.png */; };
 		4E3DC40A1FCDA3880029F9F1 /* sport bra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DC4051FCDA3880029F9F1 /* sport bra.png */; };
+		4E3F022D1FD85AB200588A77 /* Your Perfect Bra Fitting Guide-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4E3F022C1FD85AB200588A77 /* Your Perfect Bra Fitting Guide-2.mp4 */; };
+		4E70496D1FD86D1700532E28 /* icon_048090_256 small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E70496C1FD86D1700532E28 /* icon_048090_256 small.png */; };
+		4E70496F1FD86ED500532E28 /* sisters small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E70496E1FD86ED500532E28 /* sisters small.png */; };
+		4E7049751FD87E6C00532E28 /* boobrbacksmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E7049741FD87E6C00532E28 /* boobrbacksmall.png */; };
+		4E7049771FD880C400532E28 /* boobrbacksmall60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E7049761FD880C400532E28 /* boobrbacksmall60x60.png */; };
+		4E7049791FD8816400532E28 /* boobrbacksmall58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E7049781FD8816400532E28 /* boobrbacksmall58x58.png */; };
+		4E70497B1FD881C700532E28 /* boobrback87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E70497A1FD881C700532E28 /* boobrback87x87.png */; };
+		4E70497D1FD8820700532E28 /* boobrback60x60better.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E70497C1FD8820700532E28 /* boobrback60x60better.png */; };
+		4E70497F1FD8824100532E28 /* boobrback58x58better.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E70497E1FD8824100532E28 /* boobrback58x58better.png */; };
+		4E7049811FD8828600532E28 /* boobrback80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E7049801FD8828600532E28 /* boobrback80x80.png */; };
+		4E7049831FD882BD00532E28 /* boobrback120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E7049821FD882BD00532E28 /* boobrback120x120.png */; };
+		4E7049851FD882FB00532E28 /* boobrback180.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E7049841FD882FB00532E28 /* boobrback180.png */; };
+		4EA8D0841FD85D180039C211 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA8D0831FD85D180039C211 /* AVFoundation.framework */; };
+		4EA8D0861FD85D1E0039C211 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA8D0851FD85D1E0039C211 /* AVKit.framework */; };
+		4EA8D0881FD867A00039C211 /* bra outline small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EA8D0871FD867A00039C211 /* bra outline small.png */; };
+		4EA8D08A1FD86A2E0039C211 /* bras small (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 4EA8D0891FD86A2E0039C211 /* bras small (2).png */; };
 		4EE2E34A1FC44E5B000F201D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2E3491FC44E5B000F201D /* main.m */; };
 		4EE2E34D1FC44E5B000F201D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2E34C1FC44E5B000F201D /* AppDelegate.m */; };
 		4EE2E3501FC44E5B000F201D /* BraConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2E34F1FC44E5B000F201D /* BraConversion.m */; };
@@ -68,6 +84,22 @@
 		4E3DC4031FCDA3880029F9F1 /* push up bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "push up bra.png"; sourceTree = "<group>"; };
 		4E3DC4041FCDA3880029F9F1 /* strapless bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strapless bra.png"; sourceTree = "<group>"; };
 		4E3DC4051FCDA3880029F9F1 /* sport bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sport bra.png"; sourceTree = "<group>"; };
+		4E3F022C1FD85AB200588A77 /* Your Perfect Bra Fitting Guide-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Your Perfect Bra Fitting Guide-2.mp4"; sourceTree = "<group>"; };
+		4E70496C1FD86D1700532E28 /* icon_048090_256 small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_048090_256 small.png"; path = "../../../../Downloads/icon_048090_256 small.png"; sourceTree = "<group>"; };
+		4E70496E1FD86ED500532E28 /* sisters small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sisters small.png"; path = "../../../../Downloads/sisters small.png"; sourceTree = "<group>"; };
+		4E7049741FD87E6C00532E28 /* boobrbacksmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boobrbacksmall.png; path = ../../../../Downloads/boobrbacksmall.png; sourceTree = "<group>"; };
+		4E7049761FD880C400532E28 /* boobrbacksmall60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boobrbacksmall60x60.png; path = ../../../../Downloads/boobrbacksmall60x60.png; sourceTree = "<group>"; };
+		4E7049781FD8816400532E28 /* boobrbacksmall58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boobrbacksmall58x58.png; path = ../../../../Downloads/boobrbacksmall58x58.png; sourceTree = "<group>"; };
+		4E70497A1FD881C700532E28 /* boobrback87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boobrback87x87.png; path = ../../../../Downloads/boobrback87x87.png; sourceTree = "<group>"; };
+		4E70497C1FD8820700532E28 /* boobrback60x60better.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boobrback60x60better.png; path = ../../../../Downloads/boobrback60x60better.png; sourceTree = "<group>"; };
+		4E70497E1FD8824100532E28 /* boobrback58x58better.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boobrback58x58better.png; path = ../../../../Downloads/boobrback58x58better.png; sourceTree = "<group>"; };
+		4E7049801FD8828600532E28 /* boobrback80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boobrback80x80.png; path = ../../../../Downloads/boobrback80x80.png; sourceTree = "<group>"; };
+		4E7049821FD882BD00532E28 /* boobrback120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boobrback120x120.png; path = ../../../../Downloads/boobrback120x120.png; sourceTree = "<group>"; };
+		4E7049841FD882FB00532E28 /* boobrback180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boobrback180.png; path = ../../../../Downloads/boobrback180.png; sourceTree = "<group>"; };
+		4EA8D0831FD85D180039C211 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4EA8D0851FD85D1E0039C211 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		4EA8D0871FD867A00039C211 /* bra outline small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bra outline small.png"; path = "../../../../Downloads/bra outline small.png"; sourceTree = "<group>"; };
+		4EA8D0891FD86A2E0039C211 /* bras small (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bras small (2).png"; path = "../../../../Downloads/bras small (2).png"; sourceTree = "<group>"; };
 		4EE2E3451FC44E5B000F201D /* Boobr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boobr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE2E3491FC44E5B000F201D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EE2E34B1FC44E5B000F201D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +142,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA8D0861FD85D1E0039C211 /* AVKit.framework in Frameworks */,
+				4EA8D0841FD85D180039C211 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +164,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EA8D0821FD85D180039C211 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EA8D0851FD85D1E0039C211 /* AVKit.framework */,
+				4EA8D0831FD85D180039C211 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4EE2E33C1FC44E5A000F201D = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +180,7 @@
 				4EE2E3641FC44E5B000F201D /* BoobrTests */,
 				4EE2E36F1FC44E5B000F201D /* BoobrUITests */,
 				4EE2E3461FC44E5B000F201D /* Products */,
+				4EA8D0821FD85D180039C211 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,17 +213,31 @@
 				4EE2E3541FC44E5B000F201D /* Main.storyboard */,
 				4EE2E38C1FC45E43000F201D /* DataModel.h */,
 				4EED3BE01FC7545E00BE7ACB /* boobr no back.png */,
+				4E7049741FD87E6C00532E28 /* boobrbacksmall.png */,
+				4E7049761FD880C400532E28 /* boobrbacksmall60x60.png */,
+				4E7049841FD882FB00532E28 /* boobrback180.png */,
+				4E7049821FD882BD00532E28 /* boobrback120x120.png */,
+				4E70497C1FD8820700532E28 /* boobrback60x60better.png */,
+				4E7049781FD8816400532E28 /* boobrbacksmall58x58.png */,
+				4E70497A1FD881C700532E28 /* boobrback87x87.png */,
 				4EED3BE11FC7545E00BE7ACB /* bra outline.png */,
+				4E3F022C1FD85AB200588A77 /* Your Perfect Bra Fitting Guide-2.mp4 */,
 				4EED3BE21FC7545E00BE7ACB /* bras (2).png */,
+				4E70497E1FD8824100532E28 /* boobrback58x58better.png */,
+				4E7049801FD8828600532E28 /* boobrback80x80.png */,
 				4E3DC3F71FCDA35F0029F9F1 /* adhesive bra.png */,
+				4EA8D0891FD86A2E0039C211 /* bras small (2).png */,
+				4EA8D0871FD867A00039C211 /* bra outline small.png */,
 				4E3DC3F81FCDA35F0029F9F1 /* corset bra.png */,
 				4E3DC3F91FCDA35F0029F9F1 /* plunge bra.png */,
 				4EEEF7051FD6E057006EAD39 /* small arrow.png */,
 				4E3DC3FA1FCDA35F0029F9F1 /* shelf bra .png */,
+				4E70496C1FD86D1700532E28 /* icon_048090_256 small.png */,
 				4E3DC3FB1FCDA35F0029F9F1 /* tshirt bra.png */,
 				4E3DC4011FCDA3880029F9F1 /* triangle bra.png */,
 				4E3DC4021FCDA3880029F9F1 /* underwire bra.png */,
 				4E3DC4031FCDA3880029F9F1 /* push up bra.png */,
+				4E70496E1FD86ED500532E28 /* sisters small.png */,
 				4E3DC4041FCDA3880029F9F1 /* strapless bra.png */,
 				4E3DC4051FCDA3880029F9F1 /* sport bra.png */,
 				4EE2E38D1FC45E43000F201D /* DataModel.m */,
@@ -327,25 +385,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA8D0881FD867A00039C211 /* bra outline small.png in Resources */,
 				4E3DC4081FCDA3880029F9F1 /* push up bra.png in Resources */,
 				4EED3BE51FC7545E00BE7ACB /* bras (2).png in Resources */,
 				4EEEF7061FD6E057006EAD39 /* small arrow.png in Resources */,
 				4E3DC4061FCDA3880029F9F1 /* triangle bra.png in Resources */,
+				4E7049831FD882BD00532E28 /* boobrback120x120.png in Resources */,
+				4E7049851FD882FB00532E28 /* boobrback180.png in Resources */,
 				4E3DC3FE1FCDA35F0029F9F1 /* plunge bra.png in Resources */,
 				4E3DC3FC1FCDA35F0029F9F1 /* adhesive bra.png in Resources */,
+				4E70497F1FD8824100532E28 /* boobrback58x58better.png in Resources */,
+				4E7049771FD880C400532E28 /* boobrbacksmall60x60.png in Resources */,
+				4EA8D08A1FD86A2E0039C211 /* bras small (2).png in Resources */,
 				4EE2E38B1FC4580D000F201D /* Picture1.png in Resources */,
 				4E3DC3FF1FCDA35F0029F9F1 /* shelf bra .png in Resources */,
+				4E7049791FD8816400532E28 /* boobrbacksmall58x58.png in Resources */,
+				4E70496F1FD86ED500532E28 /* sisters small.png in Resources */,
 				4EE2E35B1FC44E5B000F201D /* LaunchScreen.storyboard in Resources */,
 				4E3DC4001FCDA35F0029F9F1 /* tshirt bra.png in Resources */,
 				4E3DC3FD1FCDA35F0029F9F1 /* corset bra.png in Resources */,
 				4EE2E3581FC44E5B000F201D /* Assets.xcassets in Resources */,
 				4EED3BDF1FC7545400BE7ACB /* sisters.png in Resources */,
 				4E3DC4091FCDA3880029F9F1 /* strapless bra.png in Resources */,
+				4E7049751FD87E6C00532E28 /* boobrbacksmall.png in Resources */,
 				4EE2E3561FC44E5B000F201D /* Main.storyboard in Resources */,
 				4EED3BDD1FC73DD300BE7ACB /* Picture1 copy.png in Resources */,
+				4E70497D1FD8820700532E28 /* boobrback60x60better.png in Resources */,
+				4E3F022D1FD85AB200588A77 /* Your Perfect Bra Fitting Guide-2.mp4 in Resources */,
+				4E70497B1FD881C700532E28 /* boobrback87x87.png in Resources */,
 				4EED3BE31FC7545E00BE7ACB /* boobr no back.png in Resources */,
 				4E3DC4071FCDA3880029F9F1 /* underwire bra.png in Resources */,
 				4E3DC40A1FCDA3880029F9F1 /* sport bra.png in Resources */,
+				4E70496D1FD86D1700532E28 /* icon_048090_256 small.png in Resources */,
+				4E7049811FD8828600532E28 /* boobrback80x80.png in Resources */,
 				4EED3BE41FC7545E00BE7ACB /* bra outline.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

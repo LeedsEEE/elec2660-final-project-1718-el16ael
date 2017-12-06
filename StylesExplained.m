@@ -10,7 +10,7 @@
 @interface StylesExplained ()
 
 @property (nonatomic, strong) DataModel * data;
-- (IBAction)BackPressed:(id)sender;
+- (IBAction)BackPressed:(id)sender; //back button icon : http://www.clker.com/cliparts/P/F/4/j/V/q/transparent-arrow-left-hi.png
 
 
 @end

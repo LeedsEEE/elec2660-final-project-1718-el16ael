@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AVKit/AVKit.h>
 
 @interface FitGuide : UIViewController
+
 - (IBAction)BraFitButton:(id)sender;
+@property (nonatomic)AVPlayer * player;
+@property (nonatomic)AVPlayerViewController * controller;
 
 @end
